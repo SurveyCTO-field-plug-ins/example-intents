@@ -1,0 +1,51 @@
+<div class="intents-container">
+    <p><strong>Intent configuration</strong></p>
+
+    <label for="intentName">Intent name:</label>
+    <input 
+        type="text"
+        id="intentName"
+        class="response default-answer-text-size"
+        placeholder="example: android.intent.action.SENDTO"
+    />
+    <label for="intentParams">Intent parameters:</label>
+    <input 
+        type="text"
+        id="intentParams"
+        class="response default-answer-text-size"
+        
+        placeholder="example: {&quot;param1&quot;:&quot;123&quot;,&quot;param2&quot;:&quot;456&quot;}"
+    />
+    <small>Please provide a list of parameters in JSON format. If you don't use the JSON format, this will not work.</small>
+    <p><strong>Intent actions</strong></p>
+    <p>
+        <button id="launchIntent" class="btn">Launch</button>
+        <small>This will launch the intent using the settings configured above.</small>
+    </p>
+    <p>
+        <button id="prefillSMS" class="btn">Use SMS example</button>
+        <small>This will automatically configure the intent to attempt to send an SMS.</small>
+    </p>
+
+    <p><strong>Intent results</strong></p>
+
+    <label for="intentResultStatus">Return status:</label>
+    <input 
+        type="text"
+        id="intentResultStatus"
+        class="response default-answer-text-size"
+    />
+
+    <label for="intentResultsValue">Return value:</label>
+    <textarea 
+        name="intentResultsValue" 
+        id="intentResultsValue"
+        class="response default-answer-text-size"
+        rows="8">
+    </textarea>
+
+    <button id="clearIntentResults" class="btn">Clear results</button>
+
+</div>
+
+
