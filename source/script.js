@@ -19,19 +19,19 @@ intentConfigParams.innerHTML = intentParams;
 
 // Define the 'launch intent' function
 launchIntentBtn.onclick = function() {
-    // Since the intent parameters are expected in a JSON string format, we first need to convert from JSON to an object
-    var intentParamsObj = JSON.parse(intentParams);
+    var intentParamsObj = JSON.parse(intentParams); // Since the intent parameters are expected in a JSON string format, we first need to convert from JSON to an object
     // Then, we can launch the intent using the current values from the config fields
     launchIntent(intentName, intentParamsObj, function(error, result) {
         if (error) {
-            // Something went wrong while launching the intent. 
-            intentResultStatusEl.value = "error";
-            intentResultsValueEl.innerHTML = error;
+            // Something went wrong while launching the intent...
+            intentResultStatusEl.value = "error"; // update the return status
+            intentResultsValueEl.innerHTML = error; // show the error message
             return;
         } else {
-            // If nothing went wrong
-            intentResultStatusEl.value = "success";
-            intentResultsValueEl.innerHTML = result;
+            // If nothing went wrong...
+            intentResultStatusEl.value = "success"; // update the return status
+            var resultString = JSON.stringify(result); // Since the returned values are expected to be objects, we first need to convert them to a string
+            intentResultsValueEl.innerHTML = resultString; // show the results
         }
     });
 }
