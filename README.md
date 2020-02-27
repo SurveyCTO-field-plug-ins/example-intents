@@ -1,6 +1,6 @@
 # example-intents
 
-*Note: this plug-in is in active development and is not yet ready to use.*
+![A text field using this plug-in](extras/preview.jpg)
 
 ## Description
 
@@ -24,6 +24,10 @@ This field plug-in is meant to provide a generic way to test/debug intents in An
 
 
 ## More resources
+
+### Test form
+
+* [extras/test-form](extras/test-form)
 
 ### SurveyCTO Documentation
 
