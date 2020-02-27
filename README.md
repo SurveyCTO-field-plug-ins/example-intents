@@ -25,9 +25,14 @@ This field plug-in is meant to provide a generic way to test/debug intents in An
 
 ## More resources
 
-### Test form
+### In this repo
 
-* [extras/test-form](extras/test-form)
+* **Test form**  
+[extras/test-form](extras/test-form)
+
+* **Test app**  
+[extras/test-app](extras/test-app)  
+This app can help you test how data is sent and returned through intents. If you install it on your device, you can call it using the intent name `com.surveycto.android.external.DUMMY` and pass any number of arbitrary parameters to it. Once you launch the intent, this dummy app will show the parameters that it received. You will then have the option to send a response *back* to SurveyCTO Collect. 
 
 ### SurveyCTO Documentation
 
