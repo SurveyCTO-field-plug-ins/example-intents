@@ -17,10 +17,10 @@ This field plug-in is meant to provide a generic way to test/debug intents in An
 
 | Key | Value |
 | --- | --- |
-| `itentName` | The name of the intent to be called (example: `android.intent.action.SENDTO`) |
+| `intentName` | The name of the intent to be called (example: `android.intent.action.SENDTO`) |
 | `intentParams` | The parameters expected by that intent in a JSON string format (example: `{"param1":"123","param2":"456"}`) |
 
-*Note: in the example test form, both itentName and intentParams are stored in separate fields. The parameters passed to this field plug-in are just references to those other fields. This makes it easier during testing since the values that you are trying are saved and stored in the form data.*
+*Note: in the example test form, both intentName and intentParams are stored in separate fields. The parameters passed to this field plug-in are just references to those other fields. This makes it easier during testing since the values that you are trying are saved and stored in the form data.*
 
 
 ## More resources
