@@ -1,7 +1,7 @@
 {
 	"name" : "Example 'intents' plug-in",
 	"author" : "Dobility",
-	"version": "2.0.10",
+	"version": "2.0.11",
 	"supportedFieldTypes": ["text"],
 	"hideDefaultRequiredMessage": false,
 	"hideDefaultConstraintMessage": false
