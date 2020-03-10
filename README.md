@@ -22,7 +22,6 @@ This field plug-in is meant to provide a generic way to test/debug intents in An
 
 *Note: in the example test form, both intentName and intentParams are stored in separate fields. The parameters passed to this field plug-in are just references to those other fields. This makes it easier during testing since the values that you are trying are saved and stored in the form data.*
 
-
 ## More resources
 
 ### In this repo
@@ -32,7 +31,7 @@ This field plug-in is meant to provide a generic way to test/debug intents in An
 
 * **Test app**  
 [extras/test-app](extras/test-app)  
-This app can help you test how data is sent and returned through intents. If you install it on your device, you can call it using the intent name `com.surveycto.android.external.DUMMY` and pass any number of arbitrary parameters to it. Once you launch the intent, this dummy app will show the parameters that it received. You will then have the option to send a response *back* to SurveyCTO Collect. 
+This app can help you test how data is sent and returned through intents. If you install it on your device, you can call it using the intent name `com.surveycto.android.external.DUMMY` and pass any number of arbitrary parameters to it. Once you launch the intent, this dummy app will show the parameters that it received. You will then have the option to send a response *back* to SurveyCTO Collect.
 
 ### SurveyCTO Documentation
 
