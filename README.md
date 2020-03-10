@@ -1,6 +1,6 @@
 # example-intents
 
-![A text field using this plug-in](extras/preview.jpg)
+![A text field using this plug-in](extras/example-intents.jpg)
 
 ## Description
 
