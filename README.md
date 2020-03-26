@@ -26,8 +26,8 @@ This field plug-in is meant to provide a generic way to test/debug intents in An
 
 ### In this repo
 
-* **Test form**  
-[extras/test-form](extras/test-form)
+* **Example form**  
+[extras/example-form](extras/example-form)
 
 * **Test app**  
 [extras/test-app](extras/test-app)  
