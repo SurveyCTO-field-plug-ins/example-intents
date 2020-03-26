@@ -1,7 +1,7 @@
 {
-	"name" : "Example 'intents' plug-in",
+	"name" : "Feature demo - Android intents",
 	"author" : "Dobility",
-	"version": "2.0.11",
+	"version": "3.0.0",
 	"supportedFieldTypes": ["text"],
 	"hideDefaultRequiredMessage": false,
 	"hideDefaultConstraintMessage": false
