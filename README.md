@@ -8,10 +8,12 @@ This field plug-in is meant to provide a generic way to test/debug intents in An
 
 *Note: this is not intended to be used to collect actual data. It is intended for demonstration/testing purposes.*
 
+[![Download now](extras/download-button.png)](https://github.com/surveycto/feature-demo-intents/raw/master/feature-demo-intents.fieldplugin.zip)
+
 ## How to use
 
-1. Download the example form [extras/example-form](extras/example-form) from this repo and upload it to your SurveyCTO server.
-1. Download the [feature-demo-intents.fieldplugin.zip](feature-demo-intents.fieldplugin.zip) file from this repo, and attach it to the example form on your SurveyCTO server.
+1. Download the example form [extras/example-form](https://github.com/surveycto/feature-demo-intents/raw/master/extras/example-form/Example%20form%20-%20feature-demo-intents.xlsx) from this repo and upload it to your SurveyCTO server.
+1. Download the [feature-demo-intents.fieldplugin.zip](https://github.com/surveycto/feature-demo-intents/raw/master/feature-demo-intents.fieldplugin.zip) file from this repo, and attach it to the example form on your SurveyCTO server.
 
 ## Required parameters
 
@@ -27,10 +29,10 @@ This field plug-in is meant to provide a generic way to test/debug intents in An
 ### In this repo
 
 * **Example form**  
-[extras/example-form](extras/example-form)
+[extras/example-form](https://github.com/surveycto/feature-demo-intents/raw/master/extras/example-form/Example%20form%20-%20feature-demo-intents.xlsx)
 
 * **Test app**  
-[extras/test-app](extras/test-app)  
+[extras/test-app](https://github.com/surveycto/feature-demo-intents/raw/master/extras/test-app/SurveyCTO_dummy_external_app-release.apk)  
 This app can help you test how data is sent and returned through intents. If you install it on your device, you can call it using the intent name `com.surveycto.android.external.DUMMY` and pass any number of arbitrary parameters to it. Once you launch the intent, this dummy app will show the parameters that it received. You will then have the option to send a response *back* to SurveyCTO Collect.
 
 ### SurveyCTO Documentation
