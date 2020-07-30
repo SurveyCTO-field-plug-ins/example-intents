@@ -1,28 +1,38 @@
-# feature-demo-intents
+# Field plug-in feature demo: intents
 
 ![A text field using this plug-in](extras/feature-demo-intents.jpg)
 
 ## Description
 
-This field plug-in is meant to provide a generic way to test/debug intents in Android Collect.
+This field plug-in is meant to provide a generic way to test/debug the intents feature in SurveyCTO Collect on Android.
 
 *Note: this is not intended to be used to collect actual data. It is intended for demonstration/testing purposes.*
 
 [![Download now](extras/download-button.png)](https://github.com/surveycto/feature-demo-intents/raw/master/feature-demo-intents.fieldplugin.zip)
 
+### Features
+
+* On Android, this field plug-in can launch an intent, then display the return status and value.
+
+### Data format
+
+This field plug-in requires the `text` field type. If you click the *Save results* button, the return value from the intent will be saved as the response.
+
 ## How to use
+
+### Getting started
 
 1. Download the example form [extras/example-form](https://github.com/surveycto/feature-demo-intents/raw/master/extras/example-form/Example%20form%20-%20feature-demo-intents.xlsx) from this repo and upload it to your SurveyCTO server.
 1. Download the [feature-demo-intents.fieldplugin.zip](https://github.com/surveycto/feature-demo-intents/raw/master/feature-demo-intents.fieldplugin.zip) file from this repo, and attach it to the example form on your SurveyCTO server.
 
-## Required parameters
+### Parameters
 
 | Key | Value |
 | --- | --- |
 | `intentName` | The name of the intent to be called (example: `android.intent.action.SENDTO`) |
 | `intentParams` | The parameters expected by that intent in a JSON string format (example: `{"param1":"123","param2":"456"}`) |
 
-*Note: in the example form, both intentName and intentParams are stored in separate fields. The parameters passed to this field plug-in are just references to those other fields. This makes it easier during testing since the values that you are trying are saved and stored in the form data.*
+*Note: in the example form, both intentName and intentParams are stored in separate fields. The parameters passed to this field plug-in are just references to those other fields. This makes it easier during testing since both the intent name and parameters that you are testing can be saved and stored in the form data.*
 
 ## More resources
 
